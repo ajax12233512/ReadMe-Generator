@@ -65,7 +65,7 @@ function promptQuestions(question){
             let contributionGuidelines = answers.contributionGuidelines;
             let testInstructions = answers.testInstructions;
             let license = answers.license;
-            let github = answers.guthub;
+            let github = answers.github;
             let email = answers.email;
             let answersArray = {projectTitle ,description, installationInstructions, usageInformation, contributionGuidelines, testInstructions, license, github, email };
             let newMarkDown = generateMarkdown(answersArray);
