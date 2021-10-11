@@ -27,15 +27,15 @@ function generateMarkdown(data) {
   ## License 
   ${renderLicenseSection(data.license)}
   # Table Of Contents
-  [Description](##Description)
+  [Description](#Description)
 
-  [Installation Instruction](##Installation-Instruction)
+  [Installation Instruction](#Installation-Instruction)
 
-  [Usage Information](##Usage-Information)
+  [Usage Information](#Usage-Information)
 
-  [Contribution Guidelines](##Contribution-Guidelines)
+  [Contribution Guidelines](#Contribution-Guidelines)
 
-  [Testing Instructions](##Testing-Instructions)
+  [Testing Instructions](#Testing-Instructions)
 
 
   ## Description
@@ -50,22 +50,22 @@ function generateMarkdown(data) {
   ${data.testInstructions}
 
   ## Questions
-  ${data.github}
-  ${data.email}
+  Github: ${data.github}
+  Email: ${data.email}
     `;
   }
   else if(data.license == 'NONE'){
     return `# ${data.projectTitle}
   # Table Of Contents
-  [Description]()
+  [Description](#Description)
 
-  [Installation Instruction]()
+  [Installation Instruction](#Installation-Instruction)
 
-  [Usage Information]()
+  [Usage Information](#Usage-Information)
 
-  [Contribution Guidelines]()
+  [Contribution Guidelines](#Contribution-Guidelines)
 
-  [Testing Instructions]()
+  [Testing Instructions](#Testing-Instructions)
 
 
   ## Description
