@@ -2,15 +2,15 @@
   ## License 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # Table Of Contents
-  [Description](##Description)
+  [Description](#Description)
 
-  [Installation Instruction](##Installation-Instruction)
+  [Installation Instruction](#Installation-Instruction)
 
-  [Usage Information](##Usage-Information)
+  [Usage Information](#Usage-Information)
 
-  [Contribution Guidelines](##Contribution-Guidelines)
+  [Contribution Guidelines](#Contribution-Guidelines)
 
-  [Testing Instructions](##Testing-Instructions)
+  [Testing Instructions](#Testing-Instructions)
 
 
   ## Description
